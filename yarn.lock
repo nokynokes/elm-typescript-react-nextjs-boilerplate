@@ -170,6 +170,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@types/elm@^0.19.1":
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/@types/elm/-/elm-0.19.1.tgz#a021a91739ce7c117b83c04726b0ca8abe7090fb"
+  integrity sha512-GoKDyqw3jbiHyaUAdB4hj0ufuJo5bYqxmmWl7hbaJFewjccXLWN++oGMiGwp4q/Dq4RmMYReV85zkcLQ77+s1w==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -481,6 +486,14 @@ core-util-is@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==
+
+create-react-class@^15.5.3:
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  integrity sha512-QZv4sFWG9S5RUvkTYWbflxeZX+JG7Cz0Tn33rQBJ+WFQTqTfUTjMjiv9tnfXazjsO5r0KhPs+AqCjyrQX6h2ng==
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -1566,7 +1579,7 @@ lodash.merge@^4.6.2:
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-loose-envify@^1.1.0, loose-envify@^1.4.0:
+loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
@@ -1874,6 +1887,13 @@ react-dom@18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-elm-components@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-elm-components/-/react-elm-components-1.1.0.tgz#e36dbd4d80feee9b32c009482542d43b35be0b36"
+  integrity sha512-L1JUZTfobgHGhNtrWI5MtSHEs2eUux4pupZj47rF6r+BIQ7ec8Gu2mGenl1SgOGvUChyF3kIQn/ti1+d/4X24w==
+  dependencies:
+    create-react-class "^15.5.3"
 
 react-is@^16.13.1:
   version "16.13.1"
